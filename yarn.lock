@@ -762,6 +762,12 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.5.5":
+  version "7.10.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.2.tgz#d103f21f2602497d38348a32e008637d506db839"
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.1.0", "@babel/template@^7.4.0", "@babel/template@^7.4.4", "@babel/template@^7.6.0":
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.6.0.tgz#7f0159c7f5012230dad64cca42ec9bdb5c9536e6"
@@ -983,6 +989,39 @@
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
 
+"@polymer/iron-flex-layout@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.1.tgz#36f9e1a8eb792d279b2bc75d362628721ad37f0c"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-icon@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-icon/-/iron-icon-3.0.1.tgz#93211c39d8825fe4965a68419566036c1df291eb"
+  dependencies:
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-iconset-svg@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-iconset-svg/-/iron-iconset-svg-3.0.1.tgz#568d6e7dbc120299dae63be3600aeba0d30ddbea"
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-meta@^3.0.0-pre.26":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-meta/-/iron-meta-3.0.1.tgz#7f140628d127b0a284f882f1bb323a261bc125f5"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/polymer@^3.0.0":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.4.1.tgz#333bef25711f8411bb5624fb3eba8212ef8bee96"
+  dependencies:
+    "@webcomponents/shadycss" "^1.9.1"
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
@@ -1180,6 +1219,73 @@
     lodash.unescape "4.0.1"
     semver "^6.3.0"
 
+"@vaadin/vaadin-button@^2.2.1":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-button/-/vaadin-button-2.3.0.tgz#53ccad7738458c1336cd94269d2a896a3f81b9c6"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/vaadin-control-state-mixin" "^2.1.1"
+    "@vaadin/vaadin-element-mixin" "^2.0.0"
+    "@vaadin/vaadin-lumo-styles" "^1.3.3"
+    "@vaadin/vaadin-material-styles" "^1.2.0"
+    "@vaadin/vaadin-themable-mixin" "^1.2.1"
+
+"@vaadin/vaadin-control-state-mixin@^2.1.1":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-control-state-mixin/-/vaadin-control-state-mixin-2.2.2.tgz#921196403820c2d7010897cab83b62db02c3c166"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@vaadin/vaadin-development-mode-detector@^2.0.0":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-development-mode-detector/-/vaadin-development-mode-detector-2.0.4.tgz#f49c8009856bead92d248377c36b295b5aae78e5"
+
+"@vaadin/vaadin-element-mixin@^2.0.0", "@vaadin/vaadin-element-mixin@^2.3.0":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-element-mixin/-/vaadin-element-mixin-2.4.1.tgz#af65828a33169cb45ef2889aa7efe62a5bcd0db4"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/vaadin-development-mode-detector" "^2.0.0"
+    "@vaadin/vaadin-usage-statistics" "^2.1.0"
+
+"@vaadin/vaadin-lumo-styles@^1.3.3", "@vaadin/vaadin-lumo-styles@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-lumo-styles/-/vaadin-lumo-styles-1.6.0.tgz#4b682f3a073054f8950ef460dda9cb4555372113"
+  dependencies:
+    "@polymer/iron-icon" "^3.0.0"
+    "@polymer/iron-iconset-svg" "^3.0.0"
+    "@polymer/polymer" "^3.0.0"
+
+"@vaadin/vaadin-material-styles@^1.2.0", "@vaadin/vaadin-material-styles@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-material-styles/-/vaadin-material-styles-1.3.2.tgz#d2c1bd290db16721152ae672dbe052c381686696"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@vaadin/vaadin-text-field@^2.4.12":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-text-field/-/vaadin-text-field-2.6.0.tgz#a7d4cf9673751977cd0cf404fad0d2092d48d3a6"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    "@vaadin/vaadin-control-state-mixin" "^2.1.1"
+    "@vaadin/vaadin-element-mixin" "^2.3.0"
+    "@vaadin/vaadin-lumo-styles" "^1.6.0"
+    "@vaadin/vaadin-material-styles" "^1.3.2"
+    "@vaadin/vaadin-themable-mixin" "^1.2.1"
+
+"@vaadin/vaadin-themable-mixin@^1.2.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-themable-mixin/-/vaadin-themable-mixin-1.6.1.tgz#febaeea211a23e3a9f060345252bfe101284a469"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+    lit-element "^2.0.0"
+
+"@vaadin/vaadin-usage-statistics@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-usage-statistics/-/vaadin-usage-statistics-2.1.0.tgz#9c0fd71dded80f401bcdfbcb3f45b5640fc4256d"
+  dependencies:
+    "@vaadin/vaadin-development-mode-detector" "^2.0.0"
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -1307,6 +1413,10 @@
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
+
+"@webcomponents/shadycss@^1.9.1":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.10.0.tgz#7a80ec1e8b271fb3f0cc02cd4358b877a303545d"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -3920,6 +4030,12 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoist-non-react-statics@^3.3.0:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  dependencies:
+    react-is "^16.7.0"
+
 hosted-git-info@^2.1.4:
   version "2.8.4"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.4.tgz#44119abaf4bc64692a16ace34700fed9c03e2546"
@@ -5098,6 +5214,16 @@ levn@^0.3.0, levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
+
+lit-element@^2.0.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.3.1.tgz#73343b978fa1e73d60526c6bb6ad60f53a16c343"
+  dependencies:
+    lit-html "^1.1.1"
+
+lit-html@^1.1.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.2.1.tgz#1fb933dc1e2ddc095f60b8086277d4fcd9d62cc8"
 
 load-json-file@^2.0.0:
   version "2.0.0"
@@ -6965,22 +7091,36 @@ react-dev-utils@^9.1.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.10.2:
-  version "16.10.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.10.2.tgz#4840bce5409176bc3a1f2bd8cb10b92db452fda6"
+react-dom@^16.10.2:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.16.2"
+    scheduler "^0.19.1"
 
 react-error-overlay@^6.0.3:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.3.tgz#c378c4b0a21e88b2e159a3e62b2f531fd63bf60d"
 
+react-is@^16.7.0, react-is@^16.9.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+
 react-is@^16.8.1, react-is@^16.8.4:
   version "16.10.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.1.tgz#0612786bf19df406502d935494f0450b40b8294f"
+
+react-redux@^7.1.1:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.0.tgz#f970f62192b3981642fec46fd0db18a074fe879d"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    hoist-non-react-statics "^3.3.0"
+    loose-envify "^1.4.0"
+    prop-types "^15.7.2"
+    react-is "^16.9.0"
 
 react-scripts@3.2.0:
   version "3.2.0"
@@ -7042,9 +7182,9 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.10.2:
-  version "16.10.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.10.2.tgz#a5ede5cdd5c536f745173c8da47bda64797a4cf0"
+react@^16.10.2:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -7120,6 +7260,13 @@ recursive-readdir@2.2.2:
   dependencies:
     minimatch "3.0.4"
 
+redux@^4.0.4:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
+  dependencies:
+    loose-envify "^1.4.0"
+    symbol-observable "^1.2.0"
+
 regenerate-unicode-properties@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.1.0.tgz#ef51e0f0ea4ad424b77bf7cb41f3e015c70a3f0e"
@@ -7137,6 +7284,10 @@ regenerator-runtime@0.13.3, regenerator-runtime@^0.13.2:
 regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+
+regenerator-runtime@^0.13.4:
+  version "0.13.5"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.5.tgz#d878a1d094b4306d10b9096484b33ebd55e26697"
 
 regenerator-transform@^0.14.0:
   version "0.14.1"
@@ -7433,9 +7584,9 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@^0.16.2:
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.16.2.tgz#f74cd9d33eff6fc554edfb79864868e4819132c1"
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -8003,6 +8154,10 @@ svgo@^1.0.0, svgo@^1.2.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+symbol-observable@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+
 symbol-tree@^3.2.2:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
@@ -8547,8 +8702,8 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
